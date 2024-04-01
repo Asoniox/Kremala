@@ -4,9 +4,13 @@
 
 ## Authors
 
-* **Γεώργιος Θηβαίος** - *Αρχικός πηγαίος κώδικας*
+* **Γεώργιος Θηβαίος, ΠΕ86** - *Αρχικός πηγαίος κώδικας*
 * **Asoniox** - *Rewrite & Improvements*
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Notice
+
+Το παρόν repository είναι μέρος σχολικής εργασίας.
