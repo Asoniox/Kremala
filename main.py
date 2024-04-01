@@ -92,7 +92,7 @@ def readWord(WordsList):
 # Συνάρτηση που διαβαζει το αρχείο λέξεων
 def readfile():
     WordsList = []
-    dataFile = open("wordlist.txt", "r")
+    dataFile = open("wordlist.txt", "r", encoding="utf8")
     for line in dataFile:
         word = line
         WordsList.append(word[0 : len(word) - 1])
