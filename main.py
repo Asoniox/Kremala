@@ -1,7 +1,7 @@
-from tkinter import *
-from random import *
-from tkinter import messagebox
-from tkinter import simpledialog
+from tkinter import PhotoImage, Frame, Button, Tk, Menu, Canvas, StringVar, Label
+from tkinter import TOP, W, NW, NORMAL, DISABLED
+from tkinter import messagebox, simpledialog
+from random import randrange
 
 global image
 HiddenWord = ""
