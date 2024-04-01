@@ -69,7 +69,7 @@ def readWord(WordsList):
 # Συνάρτηση που διαβαζει το αρχείο λέξεων
 def readfile():
     WordsList=[]
-    dataFile=open("hangman_words.txt","r")
+    dataFile=open("wordlist.txt","r")
     for line in dataFile:
         word=line
         WordsList.append(word[0:len(word)-1])
