@@ -1,3 +1,5 @@
+[![Lint](https://github.com/Asoniox/Kremala/actions/workflows/black.yml/badge.svg)](https://github.com/Asoniox/Kremala/actions/workflows/black.yml)
+
 # Κρεμάλα - Hangman
 
 Το παιχνίδι Κρεμάλα σε Python και Tkinter!
