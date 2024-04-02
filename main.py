@@ -6,7 +6,6 @@ from random import randrange
 global image
 HiddenWord = ""
 
-
 # συνάρτηση αλλαγής της λέξης που βλέπει ο χρήστης (με τις παύλες)
 def changelabel(word):
     DisplayWord.set(word)
@@ -30,9 +29,7 @@ def checkWord(letter):
             HWord += DWord[i]
     HWord += HiddenWord[len(HiddenWord) - 1]
     changelabel(HWord)
-    if (
-        HWord == HiddenWord
-    ):  # ο παίκτης βλήκες όλα τα γράμματα της λέξης άρα και τη λέξη
+    if HWord == HiddenWord:  # ο παίκτης βλήκες όλα τα γράμματα της λέξης άρα και τη λέξη
         messagebox.showinfo("Παιχνίδι Κρεμάλα", "Μπράβο βρήκες τη λέξη!")
         DisableLettersBtn("All")
     if not letterFound:  # το γράμμα που επίλεξε ο παίκτης δεν υπάρχει στη λέξη
